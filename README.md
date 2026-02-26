@@ -4,8 +4,10 @@ A simple console application built in C# that converts temperatures between Cels
 
 ## Features
 
-- Celsius → Fahrenheit
-- Fahrenheit → Celsius
+- Fahrenheit conversor
+- Kelvin conversor
+- Celsius conversor
+- Temperature cannot be below temperature real limit (ex: Kelvin temperature cannot be below 0)
 - Results displayed with 2 decimal places
 
 ## How to Run?
@@ -21,4 +23,4 @@ A simple console application built in C# that converts temperatures between Cels
 
 ## About
 
-Console application developed in C# that converts temperatures between Celsius and Fahrenheit. My first project while learning C# fundamentals.
+Console application developed in C# that converts temperatures between Celsius, Fahrenheit and Kelvin. My first project while learning C# fundamentals.
