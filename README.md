@@ -6,7 +6,7 @@ A console application built in C# that converts temperatures between Kelvin, Cel
 
 - Kelvin conversor
 - Celsius conversor
-- Kelvin conversor
+- Fahrenheit conversor
 - Temperature cannot be below its physical limit (ex: Kelvin cannot be below 0)
 - Results displayed with 2 decimal places
 
@@ -24,7 +24,7 @@ A console application built in C# that converts temperatures between Kelvin, Cel
 ## Object-Oriented Programming
 
 - **Encapsulation**: `value` and `scale` are private attributes, accessible only within the `Temperature` class.
-- **Abstraction**: the `Temperature` class hides conversion logic behind simple methods like `ToCelsius()`, `ToFahrenheit()` and `ToKelvin()`.
+- **Abstraction**: the `Temperature` class hides conversion logic behind simple methods like `ToKelvin()`, `ToCelsius()` and `ToFahrenheit()`.
 
 ## About
 
