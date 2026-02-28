@@ -79,13 +79,12 @@ class Temperature
                     celsius = double.Parse(Console.ReadLine() ?? "0");
 
                     if (celsius < -273.15)
-                        Console.WriteLine("Kelvin cannot be below -273.15. Try again.");
+                        Console.WriteLine("Celsius cannot be below -273.15. Try again.");
                     else 
                     {
                         Temperature t = new Temperature(celsius, Scale.Celsius);
                         Console.WriteLine($"Result: {t.ToKelvin():F2}°K");
                     }
-
                 } while (celsius < -273.15);
                 break;
             case "2":
@@ -101,7 +100,6 @@ class Temperature
                         Temperature t = new Temperature(fahrenheit, Scale.Fahrenheit);
                         Console.WriteLine($"Result: {t.ToKelvin():F2}°K");
                     }
-
                 } while (fahrenheit < -458.67);
                 break;
             case "3":
@@ -117,7 +115,6 @@ class Temperature
                         Temperature t = new Temperature(kelvin, Scale.Kelvin);
                         Console.WriteLine($"Result: {t.ToCelsius():F2}°C");
                     }
-
                 } while(kelvin < 0);
                 break;
             case "4":
@@ -133,7 +130,6 @@ class Temperature
                         Temperature t = new Temperature(fahrenheit, Scale.Fahrenheit);
                         Console.WriteLine($"Result: {t.ToCelsius():F2}°C");
                     }
-
                 } while (fahrenheit < -458.67);
                 break;
             case "5":
@@ -149,7 +145,6 @@ class Temperature
                         Temperature t = new Temperature(kelvin, Scale.Kelvin);
                         Console.WriteLine($"Result: {t.ToFahrenheit():F2}°F");
                     }
-
                 } while (kelvin < 0);
                 break;
             case "6":
@@ -159,7 +154,7 @@ class Temperature
                     celsius = double.Parse(Console.ReadLine() ?? "0");
 
                     if (celsius < -273.15)
-                        Console.WriteLine("Fahrenheit cannot be below -273.15. Try Again");
+                        Console.WriteLine("Celsius cannot be below -273.15. Try Again");
                     else
                     {
                         Temperature t = new Temperature(celsius, Scale.Celsius);
