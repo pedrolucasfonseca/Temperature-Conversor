@@ -26,6 +26,9 @@ A console application built in C# that converts temperatures between Kelvin, Cel
 - **Encapsulation**: `value` and `scale` are private attributes, accessible only within the `Temperature` class.
 - **Abstraction**: the `Temperature` class hides conversion logic behind simple methods like `ToKelvin()`, `ToCelsius()` and `ToFahrenheit()`.
 
-## About
+## Learned
 
-Console application developed in C# that converts temperatures between Celsius, Fahrenheit and Kelvin. Refactored to use Object-Oriented Programming while learning C# and OOP fundamentals.
+- Variables, data types and type conversion in C#
+- Control flow using `switch` statements
+- String interpolation for formatted output messages
+- C# / .NET project structure (`.csproj`, `.sln`)
